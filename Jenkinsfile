@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Unit and Integration Tests") {
             steps {
-                echo "Running unit tests with JUnit"
+                echo "Running the unit tests with JUnit"
                 echo "Running integration tests with Postman"
             }
             post {
